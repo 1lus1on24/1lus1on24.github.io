@@ -1,0 +1,344 @@
+    body {
+        background-color: #192329;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+        font-family: 'ABeeZee';
+    }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0px auto;
+            background-color: #fcdd31;
+        }
+        /* musu logotips un nosaukums */
+        .ikon-tekst{
+            display: flex;
+            flex-direction: row;
+            width: 10%;
+            margin: 25px 20px 20px 20px;
+            line-height: 30%;
+        }
+
+        .fa-solid{
+            font-size: 64px;
+            color: black;
+        }
+        .komp-text{
+            margin: 20px 100px 10px 20px;
+            font-size: 1.5em;
+            font-weight: bold
+        }
+        .zibcol{
+            color: #e30613;
+        }
+        /* navigacijas zona un navigacijas pogas */
+        .navigacija{
+            display: flex;
+            flex-direction: row;
+            margin-right: 50px;
+        }
+        /* pogas ipašibas */
+        .knopka{
+            margin: auto 10px auto 10px;
+            /*border: 2px solid #101010;*/
+            font-size: 22px;
+            color:  #fcdd31;
+            background-color: rgb(25,35,41);
+            font-weight: bold;
+            width: 120px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            transition: .3s;
+        }
+        .knopka:hover{
+            background-color: rgb(25,35,41,.7);
+            cursor: pointer;
+        }
+        a:link {               
+            text-decoration: none;
+            color:  #fcdd31;
+        }
+        a:visited {
+            text-decoration: none;
+            color:  #fcdd31;
+        }
+        a:hover {
+            text-decoration: none;
+            color:  #fcdd31;
+        }
+        a:active {
+            text-decoration: none;
+            color:  #fcdd31;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        /* reklama */
+        .reklamas-zona{
+            display: flex;
+            width: 20%;
+            margin-left: 3%;
+            margin: ;
+        }
+        .nastroika-reklami{
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            background-color: red;
+            border-radius: 8px;
+        }
+        .reklama{
+            display: flex;
+            font-family: Arial;
+            font-size: 2em;
+            font-weight: bold;
+            margin: 15% auto 15% ;
+        }
+        /* kontakti un links ar musiem soc tikliem */
+    .nosaukums {
+        display: flex;
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+    }
+    .teksts {
+        display: flex;
+        font-size: 2em;
+        font-weight: bold;
+        color: #cecfd4;
+    }
+    .visas-kontakti{
+        display: flex;
+        flex-direction: column;
+        width: 74%;
+        margin-right: 3%;
+    }
+    .soc--kontakti{
+        display: flex;
+        flex-direction: row;
+    }
+    .socseti{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        margin: 2% 0 0% 20%;
+    }
+    .musu-kontakti{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 3% 0 9%;
+    }
+    hr {
+        width: 48em;
+        color: #cecfd4;
+        margin: 0% auto;
+    }
+    
+    .soc_tikli {
+        display: flex;
+    }
+
+    .socseti .fa {
+        display: flex;
+        padding: 15%;
+        font-size: 1em;
+        width: 40%;
+        text-decoration: none;
+        margin: 5% 0%;
+        transition: 0.3s;
+        opacity: 0.5;
+        color: white;
+    }
+
+    .fa:hover {
+        opacity: 2;
+        transform: scale(1.2);
+        box-shadow: .3px .3px 32px #434547;
+    }
+
+    .fa-twitter {
+        display: flex;
+        background: #55ACEE;
+        color: white;
+        border-radius: 1em;
+    }
+
+    .fa-facebook {
+        display: flex;
+        background: #3B5998;
+        color: white;
+        border-radius: 1em;
+    }
+
+    .fa-vk {
+        display: flex;
+        background: #3B5998;
+        color: white;
+        border-radius: 1em;
+    }
+
+    .fa-reddit {
+        display: flex;
+        background: #ff5700;
+        color: white;
+        border-radius: 1em;
+    }
+
+    .fa-linkedin {
+        display: flex;
+        background: #007bb5;
+        color: white;
+        border-radius: 1em;
+    }
+
+    .num-epas-par{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin: 0 0 0 3%;
+    }
+
+    .partneri {
+        display: flex;
+        display: block;
+        margin-top: 1%;
+        margin-left: 34%;
+        width: 15%;
+    }
+
+/*    .novietojums {
+        display: flex;
+        display: block;
+        margin-top: -20.1%;
+        margin-left: 57%;
+        width: 15%;
+    }*/
+
+    .vl {
+        display: flex;
+        border-left: 4px solid #cecfd4;
+        height: 40%;
+        position: absolute;
+        margin: 1% 0 0% 22%;
+    }
+
+    h3 {
+        color: #cecfd4;
+    }
+
+    h2 {
+        color: #cecfd4; 
+        margin-left: 1em;
+    }
+
+    li {
+        color: #cecfd4;
+    }
+
+    .kontakti:link {
+        color: #cecfd4;
+    }
+
+    .kontakti:visited {
+        color: #cecfd4
+    }
+
+    .kontakti:hover {
+        color: #fcdd31;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        background-color: #222e35;
+        height: 35%;
+        bottom: -35%;
+        width:100%;
+        border-top: 4px solid #fcdd31;
+    }
+    .all-foot{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto 0;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 10%;
+    }
+
+    .info2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 2.5%;
+    }
+
+    .info3 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 2.5%;
+    }
+
+    .info4 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 0 0 2.5%;
+    }
+
+    .lorem:link {
+        color: #cecfd4;
+    }
+
+    .lorem:visited {
+        color: #cecfd4;
+    }
+
+    .lorem:hover {
+        color: #fcdd31;
+    }
+    @media screen and (max-width: 1200px) { 
+        body {font: .8em Arial;} 
+        main{display: block;}
+        header, main, footer, aside, article, 
+        div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+        div.reklamas-zona, div.nastroika-reklami, div.reklama,
+        div.nosaukums, div.teksts, div.visas-kontakti, div.soc--kontakti, div.socseti, div.musu-kontakti, div.soc_tikli, div.socseti .fa, div.fa-vk, div.fa-reddit, div.fa-twitter, div.fa-facebook, div.fa-linkedin, div.num-epas-par, div.partneri, div.vl,
+        hr, h1, h2, h3, h4, h5, h6, li,
+        div.all-foot, div.info, div.info2, div.info3, div.info4 {
+            width: 100%;
+        }
+        @media screen and (max-width: 900px) { 
+        body {font: .6em Arial;} 
+        main{display: block;}
+        header, main, footer, aside, article,  
+        div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+        div.reklamas-zona, div.nastroika-reklami, div.reklama,
+        div.nosaukums, div.teksts, div.visas-kontakti, div.soc--kontakti, div.socseti, div.musu-kontakti, div.soc_tikli, div.socseti .fa, div.fa-vk, div.fa-reddit, div.fa-twitter, div.fa-facebook, div.fa-linkedin, div.num-epas-par, div.partneri, div.vl,
+        hr, h1, h2, h3, h4, h5, h6, li,
+        div.all-foot, div.info, div.info2, div.info3, div.info4 {
+            width: 100%;
+        }
+        @media screen and (max-width: 600px) { 
+        body {font: .4em Arial;} 
+        main{display: block;}
+        header, main, footer, aside, article,  
+        div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+        div.reklamas-zona, div.nastroika-reklami, div.reklama,
+        div.nosaukums, div.teksts, div.visas-kontakti, div.soc--kontakti, div.socseti, div.musu-kontakti, div.soc_tikli, div.socseti .fa, div.fa-vk, div.fa-reddit, div.fa-twitter, div.fa-facebook, div.fa-linkedin, div.num-epas-par, div.partneri, div.vl,
+        hr, h1, h2, h3, h4, h5, h6, li,
+        div.all-foot, div.info, div.info2, div.info3, div.info4 {
+            width: 100%;
+        }

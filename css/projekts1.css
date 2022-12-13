@@ -1,0 +1,219 @@
+		body{
+			margin: 0px;
+			padding: 0px;
+			font: 1em Arial;
+			background-color: #192329;
+			font-family: 'ABeeZee';font-size: 1em;
+			z-index: 0;
+		}
+		h2{
+        color: #cecfd4; 
+        margin-left: 1em;
+		}
+		li {
+        color: #cecfd4;
+   	 	}
+		/* navigation block zona */
+		header{
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			margin: 0px auto;
+			background-color: #fcdd31;
+		}
+		/* musu logotips un nosaukums */
+		.ikon-tekst{
+			display: flex;
+			flex-direction: row;
+			width: 10%;
+			margin: 25px 20px 20px 20px;
+			line-height: 30%;
+		}
+
+		.fa-solid{
+			font-size: 64px;
+			color: black;
+		}
+		.komp-text{
+			margin: 20px 100px 10px 20px;
+			font-size: 1.5em;
+			font-weight: bold
+		}
+		.zibcol{
+			color: #e30613;
+		}
+		/* navigacijas zona un navigacijas pogas */
+		.navigacija{
+			display: flex;
+			flex-direction: row;
+			margin-right: 50px;
+		}
+		/* pogas ipašibas */
+		.knopka{
+			margin: auto 10px auto 10px;
+			/*border: 2px solid #101010;*/
+			font-size: 22px;
+			color:  #fcdd31;
+			background-color: rgb(25,35,41);
+			font-weight: bold;
+			width: 120px;
+			text-align: center;
+			padding: 10px;
+			border-radius: 8px;
+			transition: .3s;
+		}
+		.knopka:hover{
+			background-color: rgb(25,35,41,.7);
+			cursor: pointer;
+		}
+		a:link {               
+ 			text-decoration: none;
+ 			color:  #fcdd31;
+ 		}
+ 		a:visited {
+ 			text-decoration: none;
+ 			color:  #fcdd31;
+ 		}
+ 		a:hover {
+ 			text-decoration: none;
+ 			color:  #fcdd31;
+ 		}
+ 		a:active {
+ 			text-decoration: none;
+ 			color:  #fcdd31;
+ 		}
+		/* informacija par mums */
+ 		main{
+ 			display: flex;
+ 			flex-direction: row;
+ 			width: 100%;
+ 			margin-top: 5%;
+ 			color: white;
+ 		}
+ 		.sveiki{
+ 			display: flex;
+ 			flex-direction: column;
+ 			width: 40%;
+ 			padding: 2%;
+ 			margin: 0 2.5% 0 5%;
+ 		}
+ 		.parmums{
+ 			display: flex;
+ 			flex-direction: column;
+ 			width: 40%;
+ 			padding: 10px;
+ 			margin: 0 2.5% 0 5%;
+ 		}
+ 		.virspar{
+ 			display: flex;
+ 			flex-direction: row;
+ 			margin: 0px auto;
+ 		}
+ 		.virspar .fa-solid{
+ 			font-size: 64px;
+			color: #fcdd31;
+			margin: 0 10px 0 0;
+ 		}
+ 		.inf{
+ 			display: flex;
+ 			flex-direction: row;
+ 			margin: 20px 0 20px 0;
+ 		}
+ 		.numiracija{
+ 			display: flex;
+ 			background-color: #fcdd31;
+ 			width: 30%;
+ 			height: 10%;
+ 			color: black;
+ 			font-weight: bold;
+ 			font-size: 2em;
+ 			padding: 1% 0% 1% 1%;
+ 			text-align: center;
+ 			margin-right: 2%;
+			border-radius: 8px;
+ 		}
+    footer {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        background-color: #222e35;
+        height: 35%;
+        bottom: -35%;
+        width:100%;
+        border-top: 4px solid #fcdd31;
+    }
+    .all-foot{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto 0;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 10%;
+    }
+
+    .info2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 2.5%;
+    }
+
+    .info3 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 2.5% 0 2.5%;
+    }
+
+    .info4 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0 0 0 2.5%;
+    }
+
+    .lorem:link {
+        color: #cecfd4;
+    }
+
+    .lorem:visited {
+        color: #cecfd4;
+    }
+
+    .lorem:hover {
+        color: #fcdd31;
+    }
+		@media screen and (max-width: 1200px) { 
+   		body {font: .8em Arial;} 
+   		main{display: block;}
+   		header, main, footer, img,
+   		div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+   		div.parmums, div.virspar, div.virspar .fa-solid, div.inf, div.numiracija,
+   		hr, h1, h2, h3, h4, h5, h6, li,
+   		div.all-foot, div.info, div.info2, div.info3, div.info4 {
+   			width: 100%;
+   		}
+   		@media screen and (max-width: 900px) { 
+   		body {font: .6em Arial;} 
+   		main{display: block;}
+   		header, main, footer, img,
+   		div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+   		div.parmums, div.virspar, div.virspar .fa-solid, div.inf, div.numiracija, 
+   		hr, h1, h2, h3, h4, h5, h6, li,
+   		div.all-foot, div.info, div.info2, div.info3, div.info4 {
+   			width: 100%;
+   		}  		
+   		@media screen and (max-width: 600px) { 
+   		body {font: .4em Arial;} 
+   		main{display: block;}
+   		header, main, footer, img,
+   		div.ikon-tekst, div.fa-solid, div.komp-text, div.zibcol, div.navigacija, div.knopka,
+   		div.parmums, div.virspar, div.virspar .fa-solid, div.inf, div.numiracija,
+   		hr, h1, h2, h3, h4, h5, h6, li, 
+   		div.all-foot, div.info, div.info2, div.info3, div.info4 {
+   			width: 100%;
+   		}
